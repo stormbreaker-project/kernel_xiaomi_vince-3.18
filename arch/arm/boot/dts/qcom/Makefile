@@ -326,4 +326,3 @@ $(obj)/../%.dtb: $(src)/%.dts FORCE
 
 dtbs: $(addprefix $(obj)/,$(dtb-y))
 endif
-clean-files := *.dtb
