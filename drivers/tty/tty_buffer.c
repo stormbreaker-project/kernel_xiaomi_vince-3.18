@@ -25,6 +25,7 @@
  * Byte threshold to limit memory consumption for flip buffers.
  * The actual memory limit is > 2x this amount.
  */
+
 #define TTYB_DEFAULT_MEM_LIMIT	(640 * 1024UL)
 
 /*
